@@ -11,7 +11,7 @@ In our repository, you can find python files that is a modified version in their
 # Data
 The augmentation file for few-shot text classification is under /data repository as txt files.
 
-We also also provide .pkl file that contains paraphrases to reproduce our results for dialog generation, which contains a dictionary with the original traits as key and the paraphrase as values. We refer to using ParlAI to reproduce the results: https://parl.ai/. 
+We also also provide .pkl file that contains paraphrases to reproduce our results for dialog generation, which contains a dictionary with the original traits as key and the paraphrase as values. We refer to using ParlAI to reproduce the results: https://parl.ai. 
 
 To generate your own paraphrases, please refer to https://github.com/Advancing-Machine-Human-Reasoning-Lab/apt, which is the off-the-shelf paraphrase generation model we use.
 
