@@ -15,35 +15,21 @@ We also also provide .pkl file that contains paraphrases to reproduce our result
 
 # Citation 
 Please cite our paper if you find the resource is useful:
-
+```
 @ARTICLE{2022arXiv220808110L,
-
        author = {{Lu}, Hongyuan and {Lam}, Wai},
-       
         title = "{PCC: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation}",
-        
       journal = {arXiv e-prints},
-      
      keywords = {Computer Science - Computation and Language},
-     
          year = 2022,
-         
         month = aug,
-        
           eid = {arXiv:2208.08110},
-          
         pages = {arXiv:2208.08110},
-        
           doi = {10.48550/arXiv.2208.08110},
-          
 archivePrefix = {arXiv},
-
        eprint = {2208.08110},
-       
  primaryClass = {cs.CL},
- 
        adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220808110L},
-       
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-      
 }
+```
