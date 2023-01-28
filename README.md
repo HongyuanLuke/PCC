@@ -13,6 +13,10 @@ The augmentation file for few-shot text classification is under /data repository
 
 We also also provide .pkl file that contains paraphrases to reproduce our results for dialog generation, which contains a dictionary with the original traits as key and the paraphrase as values. We refer to using ParlAI to reproduce the results: https://parl.ai/. 
 
+To generate your own paraphrases, please refer to https://github.com/Advancing-Machine-Human-Reasoning-Lab/apt, which is the off-the-shelf paraphrase generation model we use.
+
+Note that if you would like to use bottom-k sampling, remember to put constraints on the steps to apply bottom-k sampling. We plan to update the code shortly, but there should be just several lines, and you might find it easy to give some simple modification to the top-k sampling function.
+
 # Citation 
 Please cite our paper if you find the resource is useful:
 ```
