@@ -4,7 +4,7 @@ This is the official code repository for the paper "PCC: Paraphrasing with Botto
 This is an early version that contains useful code and tips to reproduce our paper at EACL 2023.
 
 # Code
-We build our code for text classification on Wei et al., 2021 for few shot text classification which we used as a baseline in our paper: https://github. com/jasonwei20/triplet-loss
+We build our code for text classification on Wei et al., 2021 for few shot text classification which we used as a baseline in our paper: https://github.com/jasonwei20/triplet-loss
  
 In our repository, you can find python files that is a modified version in their code repository. Replace the augmentation.py under utils/ and create an example like amzn json config under config/, then changing the augmentation file name to corresponding txt file can reproduce the results in the paper.
 
