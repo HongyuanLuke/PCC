@@ -14,6 +14,7 @@ The augmentation file for few-shot text classification is under /data repository
 We also also provide .pkl file that contains paraphrases to reproduce our results for dialog generation, which contains a dictionary with the original traits as key and the paraphrase as values. We refer to using ParlAI to reproduce the results: https://parl.ai/. 
 
 # Citation 
+
 Please cite our paper if you find the resource is useful:
 @ARTICLE{2022arXiv220808110L,
        author = {{Lu}, Hongyuan and {Lam}, Wai},
