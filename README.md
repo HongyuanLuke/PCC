@@ -1,7 +1,7 @@
 # PCC
 This is the official code repository for the paper "PCC: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation" accepted to EACL 2023 (main).
 
-This is an early version that contains useful code and tips to reproduce our paper at EACL 2023.
+This is a code repo and tips to reproduce our paper at EACL 2023.
 
 # Code
 We build our code for text classification on Wei et al., 2021 for few shot text classification which we used as a baseline in our paper: https://github.com/jasonwei20/triplet-loss
@@ -15,7 +15,7 @@ We also also provide .pkl file that contains paraphrases to reproduce our result
 
 To generate your own paraphrases, please refer to https://github.com/Advancing-Machine-Human-Reasoning-Lab/apt, which is the off-the-shelf paraphrase generation model we use.
 
-Note that if you would like to use bottom-k sampling, remember to put constraints on the steps to apply bottom-k sampling. We plan to update the code shortly, but there should be just several lines, and you might find it easy to give some simple modification to the top-k sampling function.
+Note that if you would like to use bottom-k sampling, remember to put constraints on the steps to apply bottom-k sampling. You might find it easy to give some simple modification to the top-k sampling function.
 
 # Citation 
 Please cite our paper if you find the resource is useful:
