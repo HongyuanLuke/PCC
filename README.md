@@ -19,21 +19,21 @@ Note that if you would like to use bottom-k sampling, remember to put constraint
 
 # Citation 
 Please cite our paper if you find the resource is useful:
+
+Hongyuan Lu and Wai Lam. 2023. PCC: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, pages 68–82, Dubrovnik, Croatia. Association for Computational Linguistics.
+
 ```
-@ARTICLE{2022arXiv220808110L,
-       author = {{Lu}, Hongyuan and {Lam}, Wai},
-        title = "{PCC: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Computation and Language},
-         year = 2022,
-        month = aug,
-          eid = {arXiv:2208.08110},
-        pages = {arXiv:2208.08110},
-          doi = {10.48550/arXiv.2208.08110},
-archivePrefix = {arXiv},
-       eprint = {2208.08110},
- primaryClass = {cs.CL},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220808110L},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@inproceedings{lu-lam-2023-pcc,
+    title = "{PCC}: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation",
+    author = "Lu, Hongyuan  and
+      Lam, Wai",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-main.5",
+    pages = "68--82",
+    abstract = "Curriculum Data Augmentation (CDA) improves neural models by presenting synthetic data with increasing difficulties from easy to hard. However, traditional CDA simply treats the ratio of word perturbation as the difficulty measure and goes through the curriculums only once. This paper presents \textbf{PCC}: \textbf{P}araphrasing with Bottom-k Sampling and \textbf{C}yclic Learning for \textbf{C}urriculum Data Augmentation, a novel CDA framework via paraphrasing, which exploits the textual paraphrase similarity as the curriculum difficulty measure. We propose a curriculum-aware paraphrase generation module composed of three units: a paraphrase candidate generator with bottom-k sampling, a filtering mechanism and a difficulty measure. We also propose a cyclic learning strategy that passes through the curriculums multiple times. The bottom-k sampling is proposed to generate super-hard instances for the later curriculums. Experimental results on few-shot text classification as well as dialogue generation indicate that PCC surpasses competitive baselines. Human evaluation and extensive case studies indicate that bottom-k sampling effectively generates super-hard instances, and PCC significantly improves the baseline dialogue agent.",
 }
 ```
